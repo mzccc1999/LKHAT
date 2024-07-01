@@ -1,5 +1,7 @@
 # LKHAT
-Hybrid Attention Transformer with Re-parameterized Large Kernel Convolution for Image Super-Resolution
+## Hybrid Attention Transformer with Re-parameterized Large Kernel Convolution for Image Super-Resolution
+
+## The codes are based on HAT https://github.com/XPixelGroup/HAT/tree/main
 
 ## Environment
 - [PyTorch >= 1.7](https://pytorch.org/) **(Recommend **NOT** using torch 1.8!!! It would cause abnormal performance.)**
