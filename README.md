@@ -1,5 +1,10 @@
 # LKHAT
-## Hybrid Attention Transformer with Re-parameterized Large Kernel Convolution for Image Super-Resolution https://authors.elsevier.com/a/1jONZxnVKF3Xl
+## Hybrid Attention Transformer with Re-parameterized Large Kernel Convolution for Image Super-Resolution. <br>(download paper： https://authors.elsevier.com/a/1jONZxnVKF3Xl)
+![image](https://github.com/mzccc1999/LKHAT/blob/main/fig/PA.png)
+
+- The network architecture as shown: <br>
+  
+![image](https://github.com/mzccc1999/LKHAT/blob/main/fig/architecture.png)
 
 ## The codes are based on HAT https://github.com/XPixelGroup/HAT/tree/main
 
@@ -26,4 +31,19 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_
 python lkhat/test.py -opt options/test/LKHAT_SRx4.yml
 ```
 The pretrained weights can be find at (https://pan.baidu.com/s/1StVUmovKDg2WqxyApz3eiA?pwd=W6FK)
+
+# Citation
+```
+@article{MA2024105162,
+title = {Hybrid attention transformer with re-parameterized large kernel convolution for image super-resolution},
+journal = {Image and Vision Computing},
+volume = {149},
+pages = {105162},
+year = {2024},
+issn = {0262-8856},
+doi = {https://doi.org/10.1016/j.imavis.2024.105162},
+url = {https://www.sciencedirect.com/science/article/pii/S0262885624002671},
+author = {Zhicheng Ma and Zhaoxiang Liu and Kai Wang and Shiguo Lian},
+}
+```
 
