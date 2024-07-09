@@ -1,5 +1,6 @@
 # LKHAT
 ## Hybrid Attention Transformer with Re-parameterized Large Kernel Convolution for Image Super-Resolution
+https://authors.elsevier.com/a/1jONZxnVKF3Xl
 
 ## The codes are based on HAT https://github.com/XPixelGroup/HAT/tree/main
 
@@ -25,3 +26,5 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_
 ```
 python lkhat/test.py -opt options/test/LKHAT_SRx4.yml
 ```
+The pretrained weights can be find at (https://pan.baidu.com/s/1StVUmovKDg2WqxyApz3eiA?pwd=W6FK)
+
