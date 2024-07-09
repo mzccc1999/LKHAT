@@ -1,6 +1,5 @@
 # LKHAT
-## Hybrid Attention Transformer with Re-parameterized Large Kernel Convolution for Image Super-Resolution
-https://authors.elsevier.com/a/1jONZxnVKF3Xl
+## Hybrid Attention Transformer with Re-parameterized Large Kernel Convolution for Image Super-Resolution https://authors.elsevier.com/a/1jONZxnVKF3Xl
 
 ## The codes are based on HAT https://github.com/XPixelGroup/HAT/tree/main
 
